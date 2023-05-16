@@ -1,4 +1,5 @@
-const socket = io(); // No need to specify the server URL if the client is hosted on the same domain as the server
+const socket = io('https://harsh082ip.github.io');
+// No need to specify the server URL if the client is hosted on the same domain as the server
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
